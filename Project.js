@@ -10,7 +10,7 @@ const LINE_THROUGH = "lineThrough";
 
 let LIST, id;
 
-
+//you shoule remove this function and use the event listner
 let data = localStorage.getItem("TODO");
 
 if(data){
